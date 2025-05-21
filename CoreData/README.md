@@ -46,7 +46,7 @@ Core Data는 스레드 별 작업을 위해 컨텍스트 생성 시 다음의 �
 - `performAndWait`: 동기 실행
 
 #### MergePolicy
-여러 컨텍스트가 동일 객체를 수정할 경우 **충돌(NSMergeConflict)**이 발생할 수 있습니다.     
+여러 컨텍스트가 동일 객체를 수정할 경우 충돌(NSMergeConflict)이 발생할 수 있습니다.     
 
 이를 해결하기 위해 mergePolicy를 설정할 수 있습니다.
 - `.error`: 기본값, 충돌 시 저장 실패
